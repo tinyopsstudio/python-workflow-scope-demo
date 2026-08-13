@@ -224,6 +224,33 @@
       line-height: 1.45;
     }
 
+    .next-step {
+      margin-top: 24px;
+      padding: 22px 24px;
+      border: 1px solid #b9d9cf;
+      border-radius: 6px;
+      background: #eef9f5;
+    }
+
+    .next-step h2 {
+      margin: 0;
+      font-size: 19px;
+    }
+
+    .next-step p {
+      margin: 8px 0 15px;
+      color: #36414c;
+      line-height: 1.55;
+    }
+
+    .next-step-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      font-size: 14px;
+      font-weight: 720;
+    }
+
     .evidence {
       margin-top: 24px;
       display: flex;
@@ -255,6 +282,7 @@
       .field.wide, button { grid-column: 1; }
       .metrics { grid-template-columns: 1fr; }
       .metric { min-height: 92px; }
+      .next-step { padding: 19px; }
     }
   </style>
 </head>
@@ -321,6 +349,15 @@
         <p class="recommendation" id="recommendation">The Python runtime is loading.</p>
       </section>
     </div>
+
+    <section class="next-step" aria-labelledby="next-step-heading">
+      <h2 id="next-step-heading">Ready to turn the estimate into a working automation?</h2>
+      <p>Choose a fixed-scope build for one well-defined business workflow, or use the rescue sprint for a larger workflow that is broken, partially shipped, or blocking delivery. Both routes include written requirements, QA evidence, and handoff.</p>
+      <div class="next-step-links">
+        <a href="https://reworkdigital.io/services/i-will-build-one-business-automation-workflow-58/">Buy the $499 automation build</a>
+        <a href="https://tinyopsstudio.com/automation-rescue-sprint">Review the Automation Rescue Sprint</a>
+      </div>
+    </section>
 
     <div class="evidence">
       <span>Python 3 runs locally in this page through Pyodide.</span>
