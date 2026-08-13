@@ -2,6 +2,10 @@
 
 This public demo runs `app.py` in the browser with Pyodide. It turns workflow volume, handling time, labor cost, error rate, and implementation cost into a deterministic automation-priority estimate.
 
+[Run the live workflow scope analyzer](https://tinyopsstudio.github.io/python-workflow-scope-demo/).
+
+If the result supports implementation, TinyOps Studio offers a fixed-scope [$499 business automation build](https://reworkdigital.io/services/i-will-build-one-business-automation-workflow-58/) with written requirements, QA evidence, and handoff. Larger broken or partially shipped workflows can use the [Automation Rescue Sprint](https://tinyopsstudio.com/automation-rescue-sprint).
+
 ## Run locally
 
 ```bash
